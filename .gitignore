@@ -1,0 +1,19 @@
+# Build files
+build/
+dist/
+bin/
+
+# Logs
+log/
+
+#Eclipse IDE
+.classpath
+.project
+.settings
+
+#Idea IDE
+.idea/
+.gradle/
+out/
+
+.DS_Store

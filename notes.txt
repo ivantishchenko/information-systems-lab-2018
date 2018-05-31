@@ -1,0 +1,34 @@
+https://www.instagram.com/graphql/query/?query_hash=7e1e0c68bbe459cf48cbd5533ddee9d4&variables=%7B%22user_id%22%3A%2221183801%22%2C%22include_chaining%22%3Atrue%7D
+https://www.instagram.com/graphql/query/?query_hash=7e1e0c68bbe459cf48cbd5533ddee9d4&variables=%7B%22user_id%22%3A%2221183801%22%2C%22include_chaining%22%3Atrue%7D
+https://www.instagram.com/graphql/query/?query_hash=7e1e0c68bbe459cf48cbd5533ddee9d4&variables=%7B%22user_id%22%3A%2221183801%22%2C%22include_chaining%22%3Atrue%7D
+
+https://www.instagram.com/graphql/query/?query_hash=7e1e0c68bbe459cf48cbd5533ddee9d4&variables={"user_id":"userId","include_chaining":true}
+https://www.instagram.com/graphql/query/?query_hash=7e1e0c68bbe459cf48cbd5533ddee9d4&variables=%7B%22user_id%22%3A%22userId%22%2C%22include_chaining%22%3Atrue%7D
+
+	// private static final String ACCOUNT_MEDIA =
+	// "https://www.instagram.com/graphql/query/?query_hash=7e1e0c68bbe459cf48cbd5533ddee9d4&variables=%7B%22user_id%22%3A%22userId%22%2C%22include_chaining%22%3Atrue%7D";
+	// private static final String ACCOUNT_MEDIA =
+	// "https://www.instagram.com/graphql/query/?query_hash=7e1e0c68bbe459cf48cbd5533ddee9d4&variables={var}";
+	
+	
+	
+	//		OkHttpClient httpClient = new OkHttpClient();
+//		Instagram instagram = new Instagram(httpClient);
+//		Account account;
+//		try {
+//			account = instagram.getAccountByUsername("ninaagdal");
+//			System.out.println(account.getMedia().getCount());
+//			List<Media> p = instagram.getMedias("ninaagdal", 1).getNodes();
+//			System.out.println(p.size());
+//			System.out.println(p.get(p.size() - 1).getDisplayUrl());
+//
+//			p = instagram.getMedias("ninaagdal", 3).getNodes();
+//			System.out.println(p.size());
+//			System.out.println(p.get(p.size() - 1).getDisplayUrl());
+//
+//			p = instagram.getMedias("ninaagdal", 1000).getNodes();
+//			System.out.println(p.size());
+//			System.out.println(p.get(p.size() - 1).getDisplayUrl());
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}

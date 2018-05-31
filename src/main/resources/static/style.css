@@ -1,0 +1,77 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.welcome-wrapper {
+  background-color: grey;
+}
+
+.welcome {
+  height: 66vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-form * {
+  display: block;
+  margin: 10px;
+
+  border-radius: 5px;
+}
+
+.wait-wrapper {
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: green;
+}
+
+.wait {
+}
+
+.wait img {
+  height: 100px;
+  width: 100px;
+
+  display: block;
+  margin: auto;
+}
+
+.wait p {
+  padding: 5px;
+  border-radius: 5px;
+
+  background-color: white;
+}
+
+.comparison {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.comparison-nav {
+  background-color: red;
+
+  flex-grow: 1;
+}
+
+
+.comparison-table {
+  width: 90%;
+}
+
